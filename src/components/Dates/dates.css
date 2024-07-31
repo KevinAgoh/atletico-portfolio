@@ -1,0 +1,45 @@
+.dates-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+h2 {
+  /* margin-block-start: 1em;
+  margin-block-end: 1em; */
+  margin: 0;
+  font-weight: 400;
+}
+
+.planning-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.date {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 21px;
+  display: flex;
+  font-weight: 300;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 15px;
+  }
+}
+
+.date-holder {
+  border-right: solid black 1px;
+  width: 40px;
+  margin-right: 8px;
+}

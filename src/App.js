@@ -1,10 +1,18 @@
 import './App.css';
-import HomePage from './components/HomePage';
+import Bio from './components/Bio/Bio.tsx';
+import Dates from './components/Dates/Dates.tsx';
+import Hero from './components/Hero/Hero.tsx';
+import Music from './components/Music/Music.tsx';
+import Navbar from './components/Navbar/Navbar.tsx';
 
 function App() {
   return (
     <div className='App'>
-      <HomePage />
+      <Navbar />
+      <Hero />
+      <Bio />
+      <Music />
+      <Dates />
     </div>
   );
 }
