@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import React, { useRef } from 'react';
 import bioImage from './../../assets/atle-2.jpg';
+import bioImageMobile from './../../assets/photo_atletico.jpg';
 import './bio.css';
 
 const Bio = () => {
@@ -28,7 +29,12 @@ const Bio = () => {
           performances a captivating journey through sound.
         </motion.p>
       </div>
-      <img src={bioImage} alt='Atletico trio' />
+      <img className='bio-image-desktop' src={bioImage} alt='Atletico trio' />
+      <img
+        className='bio-image-mobile'
+        src={bioImageMobile}
+        alt='Atletico trio'
+      />
     </div>
   );
 };

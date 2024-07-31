@@ -19,9 +19,6 @@ const Navbar = () => {
         <div className='navbar_link'>
           <a href='#dates'>Dates</a>
         </div>
-        <div className='navbar_link'>
-          <a href='#photos'>Photos</a>
-        </div>
       </div>
       <div className='navbar_section'>
         <div className='navbar_link'>
