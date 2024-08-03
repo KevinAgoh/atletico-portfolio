@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/atletico-portfolio/static/css/main.778886da.css",
+    "main.js": "/atletico-portfolio/static/js/main.31084936.js",
+    "static/js/453.8b47434a.chunk.js": "/atletico-portfolio/static/js/453.8b47434a.chunk.js",
+    "static/media/atle-2.jpg": "/atletico-portfolio/static/media/atle-2.7635019a886199d79a4f.jpg",
+    "static/media/photo_atletico.jpg": "/atletico-portfolio/static/media/photo_atletico.5d9324003ea8089d36ca.jpg",
+    "index.html": "/atletico-portfolio/index.html",
+    "main.778886da.css.map": "/atletico-portfolio/static/css/main.778886da.css.map",
+    "main.31084936.js.map": "/atletico-portfolio/static/js/main.31084936.js.map",
+    "453.8b47434a.chunk.js.map": "/atletico-portfolio/static/js/453.8b47434a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.778886da.css",
+    "static/js/main.31084936.js"
+  ]
+}
