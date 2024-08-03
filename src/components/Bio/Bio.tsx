@@ -21,12 +21,7 @@ const Bio = () => {
           Bar’s dancefloor and have been playing music together since then.
           While sharing a broad common base in terms of taste, each member
           infuses their own touch, enabling them to deliver eclectic, dynamic
-          sets. Atletico, a trio of DJs, was forged from a chance encounter on
-          the legendary Panorama Bar dancefloor. Bound by a vast, shared musical
-          foundation, each member infuses their individual essence into the mix,
-          crafting sets that are both eclectic and pulsating with energy. This
-          unique blend of collective harmony and personal flair makes their
-          performances a captivating journey through sound.
+          sets.
         </motion.p>
       </div>
       <img className='bio-image-desktop' src={bioImage} alt='Atletico trio' />
