@@ -22,18 +22,30 @@ const Navbar = () => {
       </div>
       <div className='navbar_section'>
         <div className='navbar_link'>
-          <a href='https://www.instagram.com/nanji.collective/'>
-            <FontAwesomeIcon icon={faInstagram} />
+          <a
+            href='https://www.instagram.com/nanji.collective/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <FontAwesomeIcon icon={faInstagram} size='xl' />
           </a>
         </div>
         <div className='navbar_link'>
-          <a href='https://soundcloud.com/nanji-collective'>
-            <FontAwesomeIcon icon={faSoundcloud} />
+          <a
+            href='https://soundcloud.com/nanji-collective'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <FontAwesomeIcon icon={faSoundcloud} size='xl' />
           </a>
         </div>
         <div className='navbar_link'>
-          <a href='https://t.me/+0ngN-XxpiY0wNGVk'>
-            <FontAwesomeIcon icon={faTelegram} />
+          <a
+            href='https://t.me/+0ngN-XxpiY0wNGVk'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <FontAwesomeIcon icon={faTelegram} size='xl' />
           </a>
         </div>
       </div>
