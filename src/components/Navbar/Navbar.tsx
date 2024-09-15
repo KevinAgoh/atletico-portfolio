@@ -1,7 +1,7 @@
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 import { faSoundcloud } from '@fortawesome/free-brands-svg-icons/faSoundcloud';
-import { faTelegram } from '@fortawesome/free-brands-svg-icons/faTelegram';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './navbar.css';
@@ -23,6 +23,16 @@ const Navbar = () => {
       <div className='navbar_section'>
         <div className='navbar_link'>
           <a
+            href='https://ra.co/dj/atletico'
+            target='_blank'
+            rel='noreferrer'
+            style={{ fontWeight: 800, fontSize: 20 }}
+          >
+            RA
+          </a>
+        </div>
+        <div className='navbar_link'>
+          <a
             href='https://www.instagram.com/nanji.collective/'
             target='_blank'
             rel='noreferrer'
@@ -32,7 +42,7 @@ const Navbar = () => {
         </div>
         <div className='navbar_link'>
           <a
-            href='https://soundcloud.com/nanji-collective'
+            href='https://soundcloud.com/atletico-music'
             target='_blank'
             rel='noreferrer'
           >
@@ -41,11 +51,11 @@ const Navbar = () => {
         </div>
         <div className='navbar_link'>
           <a
-            href='https://t.me/+0ngN-XxpiY0wNGVk'
+            href='mailto:atletico.trio@gmail.com'
             target='_blank'
             rel='noreferrer'
           >
-            <FontAwesomeIcon icon={faTelegram} size='xl' />
+            <FontAwesomeIcon icon={faEnvelope} size='xl' />
           </a>
         </div>
       </div>

@@ -6,8 +6,6 @@
 }
 
 h2 {
-  /* margin-block-start: 1em;
-  margin-block-end: 1em; */
   margin: 0;
   font-weight: 400;
 }
@@ -38,7 +36,7 @@ ul {
 }
 
 .date-holder {
-  border-right: solid black 1px;
+  border-right: solid white 1px;
   width: 40px;
   margin-right: 8px;
 }

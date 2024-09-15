@@ -3,14 +3,27 @@ import React from 'react';
 import './dates.css';
 
 const Dates = () => {
+  const fadeInAnimationVariants = {
+    initial: {
+      opacity: 0,
+      x: -100
+    },
+    animate: () => {
+      return {
+        opacity: 1,
+        x: 0,
+        transition: { delay: 0.5, duration: 1 }
+      };
+    }
+  };
   return (
     <div id='dates' className='dates-container'>
       <h1>Dates</h1>
       <motion.div
-        className='planning-container'
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 3 }}
+        variants={fadeInAnimationVariants}
+        initial='initial'
+        whileInView='animate'
+        viewport={{ once: true }}
       >
         <h2>2024</h2>
         <ul>

@@ -32,12 +32,6 @@ const Bio = () => {
           transition={{ type: 'spring', bounce: 0.25, damping: 10 }}
         ></motion.p>
       </div>
-      {/* <img className='bio-image-mobile' src={bioImage} alt='Atletico trio' />
-      <img
-        className='bio-image-desktop'
-        src={bioImageMobile}
-        alt='Atletico trio'
-      /> */}
     </div>
   );
 };

@@ -29,7 +29,7 @@ const Hero = () => {
             initial='hidden'
             animate='visible'
             variants={characterAnimation}
-            transition={{ delay: index * 0.5 }} // Stagger animation start
+            transition={{ delay: index * 0.5 }}
           >
             {char}
           </motion.div>
