@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import React from 'react';
-import heroMobile from './../../assets/atle-2.jpg';
-import heroImage from './../../assets/photo_atletico.jpg';
+import { default as heroImage } from './../../assets/cover.jpg';
 import './hero.css';
 
 const Hero = () => {
@@ -24,9 +23,7 @@ const Hero = () => {
 
   return (
     <div className='hero-container'>
-      <img src={heroImage} alt='Atletico trio' className='hero-desktop' />
-      <img src={heroMobile} alt='Atletico trio' className='hero-mobile' />
-
+      <img src={heroImage} alt='Atletico trio' className='hero-image' />
       <div className='hero-text'>
         {TITLE.split('').map((char, index) => (
           <motion.div

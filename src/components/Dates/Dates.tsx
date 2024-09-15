@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import React from 'react';
 import './dates.css';
 
@@ -5,7 +6,12 @@ const Dates = () => {
   return (
     <div id='dates' className='dates-container'>
       <h1>Dates</h1>
-      <div className='planning-container'>
+      <motion.div
+        className='planning-container'
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 3 }}
+      >
         <h2>2024</h2>
         <ul>
           <li className='date'>
@@ -82,7 +88,7 @@ const Dates = () => {
             <b>Crack Bellmer</b>, Berlin, DE
           </li>
         </ul>
-      </div>
+      </motion.div>
     </div>
   );
 };
