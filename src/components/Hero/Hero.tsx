@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import React from 'react';
-import { default as heroImage } from './../../assets/cover.jpg';
 import './hero.css';
 
 const Hero = () => {
@@ -23,7 +22,6 @@ const Hero = () => {
 
   return (
     <div className='hero-container'>
-      <img src={heroImage} alt='Atletico trio' className='hero-image' />
       <div className='hero-text'>
         {TITLE.split('').map((char, index) => (
           <motion.div

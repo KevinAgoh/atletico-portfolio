@@ -9,11 +9,9 @@ const Music = () => {
         className='content'
         width='560'
         height='315'
-        scrolling='no'
-        frameBorder='no'
         allow='autoplay'
-        title='Nanji residents sets'
-        src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1156233703&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
+        title='Atletico previous sets'
+        src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1877460809&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
       ></iframe>
       <div
         style={{

@@ -1,6 +1,6 @@
 #navbar {
-  position: relative;
-  z-index: 2;
+  position: fixed;
+  z-index: 8000;
   width: 100%;
   box-sizing: border-box;
   padding-top: 2vw;
@@ -14,7 +14,6 @@
 
 a {
   text-decoration: none;
-  color: #152a49;
   height: 100%;
 }
 
