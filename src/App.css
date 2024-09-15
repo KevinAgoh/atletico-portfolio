@@ -39,5 +39,14 @@
 }
 
 html {
-  color: #384334;
+  color: #fff;
+  background-image: url('../src/assets/cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+a {
+  color: white !important;
+  text-decoration: none;
 }
