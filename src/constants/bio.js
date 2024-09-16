@@ -1,2 +1,2 @@
 export const BIO =
-  "A DJ trio who came together through a shared love of music and dancing. Known for their high-energy, eclectic sets, they blend Chicago and Detroit classics with fresh ghetto house and UK tech house sounds, all while keeping the vibe joyful and unpretentious.";
+  'Atletico is composed of 3 people. They fell in love a long time ago on the dancefloor when the blind opened on a sunny sunday morning. They have been digging and playing music together since then. While sharing a broad common base in terms of taste, each member infuses their own touch, enabling them to deliver eclectic and dynamic sets';
