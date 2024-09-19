@@ -18,11 +18,7 @@ a {
 }
 
 a:hover {
-  color: #7091e6;
-}
-
-a:hover {
-  color: #3d52a0;
+  color: #B16D30;
 }
 
 .navbar_section {
@@ -31,8 +27,4 @@ a:hover {
   display: inline-flex;
   flex-wrap: wrap;
   gap: 1rem;
-}
-
-.navbar_link {
-  color: #152a49;
 }

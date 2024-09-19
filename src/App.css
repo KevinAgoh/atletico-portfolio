@@ -44,9 +44,15 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  scroll-behavior: smooth;
 }
 
 a {
   color: white !important;
   text-decoration: none;
+}
+
+a:hover {
+  color: #B16D30 !important;
+  text-shadow: 4px #B16D30;
 }
