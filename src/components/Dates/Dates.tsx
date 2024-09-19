@@ -50,6 +50,14 @@ const Dates = () => {
             <div className='date-holder'>Jul</div>
             <b>Watergate</b>, Berlin, DE
           </li>
+          <li className='date'> 
+            <div className='date-holder'>May</div>
+            <b>Radiant Act</b>, Château de Marcoux, FR
+          </li>
+          <li className='date'> 
+            <div className='date-holder'>May</div>
+            <b>Le Groom</b>, Lyon, FR
+          </li>
           <li className='date'>
             <div className='date-holder'>Apr</div>
             <b>Crack Bellmer</b>, Berlin, DE
@@ -81,9 +89,17 @@ const Dates = () => {
             <div className='date-holder'>Aug</div>
             <b>Watergate</b>, Berlin DE
           </li>
+          <li className='date'> 
+            <div className='date-holder'>Jul</div>
+            <b>Cafe Borely</b>, Marseille, FR
+          </li>
           <li className='date'>
             <div className='date-holder'>Jun</div>
             <b>ÆDEN</b>, Berlin DE
+          </li>
+          <li className='date'> 
+            <div className='date-holder'>May</div>
+            <b>Radiant Act</b>, Château de Buoux, FR
           </li>
         </ul>
         <h2>2021</h2>
