@@ -33,7 +33,7 @@ const Navbar = () => {
         </div>
         <div className='navbar_link'>
           <a
-            href='https://www.instagram.com/nanji.collective/'
+            href='https://www.instagram.com/___atletico/'
             target='_blank'
             rel='noreferrer'
           >
