@@ -33,7 +33,7 @@ const Dates = () => {
         viewport={{ once: true }}
       >
         {dateEntries.map(({ year, events }) => (
-          <div key={year}>
+          <div className='year-section' key={year}>
             <h2>{year}</h2>
             <ul>
               {events.map(({ month, event, location }, index) => (
