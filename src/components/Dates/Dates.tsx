@@ -38,8 +38,8 @@ const Dates = () => {
             <ul>
               {events.map(({ month, event, location }, index) => (
                 <motion.div
-                  key={event}
-                  variants={{
+                key={`${year}-${event}-${month}-${index}`} 
+                variants={{
                     initial: { opacity: 0 },
                     animate: { opacity: 1, transition: { delay: index * 0.1 } }
                   }}
