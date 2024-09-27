@@ -13,3 +13,11 @@
   width: 100%;
   max-width: 600px;
 }
+
+@media (max-width: 768px) {
+  .music-container {
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box; /* Ensure padding is included in width calculations */
+  }
+}

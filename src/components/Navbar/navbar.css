@@ -28,3 +28,37 @@ a:hover {
   flex-wrap: wrap;
   gap: 1rem;
 }
+
+.navbar_link a {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+
+.navbar_link a:not([href*="instagram"]):not([href*="soundcloud"]):not([href*="mailto"]):not([href*="ra.co"]) {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+
+.navbar_link a:not([href*="instagram"]):not([href*="soundcloud"]):not([href*="mailto"]):not([href*="ra.co"])::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -2px; 
+  background-color: #B16D30; 
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar_link a:not([href*="instagram"]):not([href*="soundcloud"]):not([href*="mailto"]):not([href*="ra.co"]):hover::after {
+  width: 100%;
+}
+
+a:hover {
+  color: #B16D30;
+}
+
