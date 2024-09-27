@@ -29,6 +29,12 @@ a:hover {
   gap: 1rem;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; 
+}
+
 .navbar_link a {
   position: relative;
   text-decoration: none;
