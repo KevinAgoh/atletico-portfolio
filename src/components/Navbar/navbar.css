@@ -39,7 +39,7 @@ ul {
   position: relative;
   text-decoration: none;
   color: inherit;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .navbar_link a:not([href*="instagram"]):not([href*="soundcloud"]):not([href*="mailto"]):not([href*="ra.co"]) {
