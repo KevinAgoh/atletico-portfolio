@@ -30,8 +30,9 @@ const Hero = () => {
             animate='visible'
             variants={characterAnimation}
             transition={{ delay: index * 0.5 }}
+            className='gowun-batang-bold'
           >
-            {char}
+            <span style={{fontFamily:"gowun-batang-bold"}}>{char}</span>
           </motion.div>
         ))}
       </div>
