@@ -33,7 +33,6 @@ const Music = () => {
         height='315'
         src='https://www.youtube.com/embed/iu1gxtqugHA?si=S0MFQsaUuk_mlzLV'
         title='YouTube video player'
-        frameBorder='0'
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
         referrerPolicy='strict-origin-when-cross-origin'
         allowFullScreen
@@ -44,7 +43,6 @@ const Music = () => {
         height='315'
         src='https://www.youtube.com/embed/6_hRgGQ21OI?si=dr1Rp8EUHxi-1Lxv'
         title='YouTube video player'
-        frameBorder='0'
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
         referrerPolicy='strict-origin-when-cross-origin'
         allowFullScreen

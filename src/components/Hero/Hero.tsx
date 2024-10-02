@@ -4,7 +4,6 @@ import './hero.css';
 
 const Hero = () => {
   const TITLE = 'ATLETICO';
-
   const characterAnimation = {
     hidden: {
       opacity: 0,
@@ -19,7 +18,6 @@ const Hero = () => {
       }
     }
   };
-
   return (
     <div className='hero-container'>
       <div className='hero-text'>
@@ -32,7 +30,7 @@ const Hero = () => {
             transition={{ delay: index * 0.5 }}
             className='gowun-batang-bold'
           >
-            <span style={{fontFamily:"gowun-batang-bold"}}>{char}</span>
+            <span style={{ fontFamily: 'gowun-batang-bold' }}>{char}</span>
           </motion.div>
         ))}
       </div>

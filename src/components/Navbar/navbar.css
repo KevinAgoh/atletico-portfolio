@@ -10,15 +10,20 @@
   pointer-events: auto;
   display: flex;
   justify-content: space-between;
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+  }
 }
 
 a {
   text-decoration: none;
   height: 100%;
-}
-
-a:hover {
-  color: #B16D30;
 }
 
 .navbar_section {
@@ -32,7 +37,7 @@ a:hover {
 ul {
   margin: 0;
   padding: 0;
-  list-style: none; 
+  list-style: none;
 }
 
 .navbar_link a {
@@ -55,16 +60,11 @@ ul {
   width: 0;
   height: 2px;
   left: 0;
-  bottom: -2px; 
-  background-color: #B16D30; 
+  bottom: -2px;
+  background-color: #ffd7ba;
   transition: width 0.3s ease-in-out;
 }
 
 .navbar_link a:not([href*="instagram"]):not([href*="soundcloud"]):not([href*="mailto"]):not([href*="ra.co"]):hover::after {
   width: 100%;
 }
-
-a:hover {
-  color: #B16D30;
-}
-

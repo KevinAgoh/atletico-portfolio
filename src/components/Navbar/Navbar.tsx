@@ -10,13 +10,19 @@ const Navbar = () => {
     <nav id='navbar' role='navigation' aria-label='Main Navigation'>
       <ul className='navbar_section'>
         <li className='navbar_link'>
-          <a href='#bio' aria-label='Navigate to Bio section'>Bio</a>
+          <a href='#bio' aria-label='Navigate to Bio section'>
+            Bio
+          </a>
         </li>
         <li className='navbar_link'>
-          <a href='#music' aria-label='Navigate to Music section'>Music</a>
+          <a href='#music' aria-label='Navigate to Music section'>
+            Music
+          </a>
         </li>
         <li className='navbar_link'>
-          <a href='#dates' aria-label='Navigate to Dates section'>Dates</a>
+          <a href='#dates' aria-label='Navigate to Dates section'>
+            Dates
+          </a>
         </li>
       </ul>
       <ul className='navbar_section'>
@@ -68,5 +74,4 @@ const Navbar = () => {
     </nav>
   );
 };
-
 export default Navbar;

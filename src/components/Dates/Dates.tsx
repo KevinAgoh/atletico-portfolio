@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import React from 'react';
-import { dateEntries } from './dateEntries'; 
+import { dateEntries } from './dateEntries';
 import './dates.css';
 
 const fadeInAnimationVariants = {
@@ -14,14 +14,12 @@ const fadeInAnimationVariants = {
     transition: { delay: 0.5, duration: 1 }
   }
 };
-
 const DateItem = ({ month, event, location }) => (
   <li className='date'>
     <div className='date-holder'>{month}</div>
     <b>{event}</b>, {location}
   </li>
 );
-
 const Dates = () => {
   return (
     <div id='dates' className='dates-container'>
@@ -38,8 +36,8 @@ const Dates = () => {
             <ul>
               {events.map(({ month, event, location }, index) => (
                 <motion.div
-                key={`${year}-${event}-${month}-${index}`} 
-                variants={{
+                  key={`${year}-${event}-${month}-${index}`}
+                  variants={{
                     initial: { opacity: 0 },
                     animate: { opacity: 1, transition: { delay: index * 0.1 } }
                   }}
@@ -57,5 +55,4 @@ const Dates = () => {
     </div>
   );
 };
-
 export default Dates;

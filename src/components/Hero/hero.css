@@ -11,7 +11,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: clamp(60px, 10vw, 100px);
+  font-size: clamp(6vh, 10vw, 100px);
   font-weight: bolder;
   z-index: 999;
   filter: contrast();
