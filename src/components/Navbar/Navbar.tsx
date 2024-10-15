@@ -20,6 +20,11 @@ const Navbar = () => {
           </a>
         </li>
         <li className='navbar_link'>
+          <a href='#selecta' aria-label='Navigate to Selecta section'>
+            Selecta
+          </a>
+        </li>
+        <li className='navbar_link'>
           <a href='#dates' aria-label='Navigate to Dates section'>
             Dates
           </a>

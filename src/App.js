@@ -4,6 +4,7 @@ import Dates from './components/Dates/Dates.tsx';
 import Hero from './components/Hero/Hero.tsx';
 import Music from './components/Music/Music.tsx';
 import Navbar from './components/Navbar/Navbar.tsx';
+import Selecta from './components/Selecta/Selecta.tsx';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Bio />
       <Music />
+      <Selecta />
       <Dates />
     </div>
   );
