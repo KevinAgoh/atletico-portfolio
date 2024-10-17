@@ -14,11 +14,15 @@
   backdrop-filter: blur(10px);
 }
 
-@media (max-width: 768px) {
-  #navbar {
-    padding-top: 4vw;
-    padding-bottom: 4vw;
-  }
+.hamburger-wrapper {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  font-size: 24px;
+  text-align: right;
+}
+
+.hamburger-wrapper svg {
+  margin-right: 28px;
 }
 
 a {

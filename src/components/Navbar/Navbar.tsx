@@ -3,10 +3,15 @@ import { faSoundcloud } from '@fortawesome/free-brands-svg-icons/faSoundcloud';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import MobileMenu from '../MobileMenu/MobileMenu.tsx';
 import './navbar.css';
 
 const Navbar = () => {
-  return (
+  const isMobile = window.innerWidth <= 800;
+
+  return isMobile ? (
+    <MobileMenu />
+  ) : (
     <nav id='navbar' role='navigation' aria-label='Main Navigation'>
       <ul className='navbar_section'>
         <li className='navbar_link'>

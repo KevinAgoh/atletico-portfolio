@@ -1,0 +1,20 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 150px;
+  z-index: 1000;
+  border-radius: 0 32px 32px 0;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 150px;
+  background: rgb(167, 96, 39);
+  background: linear-gradient(344deg, rgba(167, 96, 39, 1) 0%, rgba(222, 166, 105, 1) 100%);
+  border-radius: 0 32px 32px 0;
+}
