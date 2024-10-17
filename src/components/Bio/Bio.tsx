@@ -9,7 +9,7 @@ const Bio = () => {
     );
   return (
     <div id='bio'>
-      <div className='bio'>
+      <div className='bio-text'>
         {bio.map((letter, index) => (
           <motion.span
             initial={{ opacity: 0 }}
@@ -23,11 +23,6 @@ const Bio = () => {
             {letter}{' '}
           </motion.span>
         ))}
-        <motion.p
-          initial={{ y: -20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ type: 'spring', bounce: 0.25, damping: 10 }}
-        ></motion.p>
       </div>
     </div>
   );
