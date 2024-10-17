@@ -39,7 +39,7 @@ const Navbar = () => {
         </li>
         <li className='navbar_link'>
           <a
-            href='https://www.instagram.com/___atletico/'
+            href='https://futurefilter.substack.com/p/electronic-musics-social-media-dilemma'
             target='_blank'
             rel='noreferrer'
             aria-label='Visit Instagram profile'
