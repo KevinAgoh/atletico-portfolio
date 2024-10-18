@@ -1,4 +1,6 @@
+import { motion } from 'framer-motion';
 import React, { useState } from 'react';
+import vinyl from '../../assets/vinyl.png';
 import './selecta.css';
 
 interface VideoData {
@@ -22,7 +24,7 @@ const videoData: VideoData[] = [
     url: 'https://www.youtube.com/embed/Kq1BidEaoTg?si=zCx22yq9zP26Uw4i',
     text: 'Stripped deep house vibe released in 1994',
     dj: 'Lobby'
-  },
+  }
   // Add more video data as needed
 ];
 
@@ -35,11 +37,19 @@ const Selecta: React.FC = () => {
   };
 
   return (
-    <div id="selecta" className="selecta-container">
+    <div id='selecta' className='selecta-container'>
       <h1>Selecta</h1>
-      <button onClick={handleRandomVideo} className="random-button">Atletic Dig</button>
+      <button onClick={handleRandomVideo} className='random-button'>
+        Atletic Dig
+      </button>
+      <motion.img
+        src={vinyl}
+        whileTap={{ rotate: '360deg' }}
+        style={{ height: '150px', width: '150px', cursor: 'pointer' }}
+        onClick={handleRandomVideo}
+      />
       {currentVideo && (
-        <div className="video-container">
+        <div className='video-container'>
           <iframe
             className='content'
             width='560'
@@ -50,9 +60,9 @@ const Selecta: React.FC = () => {
             referrerPolicy='strict-origin-when-cross-origin'
             allowFullScreen
           ></iframe>
-          <div className="video-info">
-            <p className="video-text">{currentVideo.text}</p>
-            <p className="dj-name">Selected by {currentVideo.dj}</p>
+          <div className='video-info'>
+            <p className='video-text'>{currentVideo.text}</p>
+            <p className='dj-name'>Selected by {currentVideo.dj}</p>
           </div>
         </div>
       )}
