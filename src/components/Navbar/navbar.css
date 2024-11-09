@@ -47,14 +47,14 @@ ul {
   font-weight: 400;
 }
 
-.navbar_link a:not([href*="instagram"]):not([href*="soundcloud"]):not([href*="mailto"]):not([href*="ra.co"]) {
+.navbar_link a:not([href*="futurefilter"]):not([href*="soundcloud"]):not([href*="mailto"]):not([href*="ra.co"]) {
   position: relative;
   text-decoration: none;
   color: inherit;
   font-weight: 400;
 }
 
-.navbar_link a:not([href*="instagram"]):not([href*="soundcloud"]):not([href*="mailto"]):not([href*="ra.co"])::after {
+.navbar_link a:not([href*="futurefilter"]):not([href*="soundcloud"]):not([href*="mailto"]):not([href*="ra.co"])::after {
   content: '';
   position: absolute;
   width: 0;
