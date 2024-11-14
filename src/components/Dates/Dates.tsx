@@ -22,7 +22,7 @@ const DateItem = ({ month, event, location }) => (
 );
 const Dates = () => {
   return (
-    <div id='dates' className='dates-container'>
+    <div id='dates' className='dates-container padding-top'>
       <h1>Dates</h1>
       <motion.div
         variants={fadeInAnimationVariants}

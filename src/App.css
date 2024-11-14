@@ -21,3 +21,12 @@ a:hover {
   color: #ffd7ba !important;
   text-shadow: 4px #ffd7ba;
 }
+
+.padding-top {
+  padding-top: 6vw;
+
+  @media (max-width: 768px) {
+    padding-top: 4vw;
+
+  }
+}

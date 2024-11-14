@@ -4,7 +4,7 @@ import './music.css';
 const Music = () => {
   return (
     <div id='music' className='music-container'>
-      <h1> Music </h1>
+      <h1 className='padding-top'> Music </h1>
       <iframe
         className='content'
         width='560'

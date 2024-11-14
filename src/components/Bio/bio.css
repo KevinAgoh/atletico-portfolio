@@ -2,6 +2,7 @@
   min-height: 450.05px;
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: center;
 
   @media only screen and (max-width: 800px) {
@@ -34,12 +35,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-size: clamp(15px, 2vw, 21px); 
+  font-size: clamp(15px, 2vw, 21px);
   font-weight: 300;
   padding-top: 16px;
   padding-bottom: 16px;
-  padding-left: 4vw; 
-  padding-right: 4vw; 
+  padding-left: 4vw;
+  padding-right: 4vw;
   display: inline;
 
   @media only screen and (max-width: 800px) {
