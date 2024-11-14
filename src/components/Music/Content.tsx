@@ -15,12 +15,16 @@ const Content = () => {
       ></iframe>
 
       <LiteYouTubeEmbed
+        poster='maxresdefault'
         id={'iu1gxtqugHA'}
-        title='What’s new in Material Design for the web (Chrome Dev Summit 2019)'
+        title='Nanji - Lobby B2B Keumzer B2B hip sync | HÖR - Apr 8 / 2022
+'
       />
       <LiteYouTubeEmbed
+        poster='maxresdefault'
         id={'6_hRgGQ21OI'}
-        title='What’s new in Material Design for the web (Chrome Dev Summit 2019)'
+        title='Nanji - Lobby B2B Keumzer B2B hip sync / October 6 / 4pm-6pm
+'
       />
     </>
   );
