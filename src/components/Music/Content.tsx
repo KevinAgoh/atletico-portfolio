@@ -1,4 +1,6 @@
 import React from 'react';
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+import './music.css';
 
 const Content = () => {
   return (
@@ -11,40 +13,15 @@ const Content = () => {
         title='Atletico previous sets'
         src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1877460809&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
       ></iframe>
-      <div
-        style={{
-          fontSize: '10px',
-          color: '#cccccc',
-          lineBreak: 'anywhere',
-          wordBreak: 'normal',
-          overflow: 'hidden',
-          whiteSpace: 'nowrap',
-          textOverflow: 'ellipsis',
-          fontFamily:
-            'Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif',
-          fontWeight: 100
-        }}
-      ></div>
-      <iframe
-        className='content'
-        width='560'
-        height='315'
-        src='https://www.youtube.com/embed/iu1gxtqugHA?si=S0MFQsaUuk_mlzLV'
-        title='YouTube video player'
-        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-        referrerPolicy='strict-origin-when-cross-origin'
-        allowFullScreen
-      ></iframe>
-      <iframe
-        className='content'
-        width='560'
-        height='315'
-        src='https://www.youtube.com/embed/6_hRgGQ21OI?si=dr1Rp8EUHxi-1Lxv'
-        title='YouTube video player'
-        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-        referrerPolicy='strict-origin-when-cross-origin'
-        allowFullScreen
-      ></iframe>
+
+      <LiteYouTubeEmbed
+        id={'iu1gxtqugHA'}
+        title='What’s new in Material Design for the web (Chrome Dev Summit 2019)'
+      />
+      <LiteYouTubeEmbed
+        id={'6_hRgGQ21OI'}
+        title='What’s new in Material Design for the web (Chrome Dev Summit 2019)'
+      />
     </>
   );
 };
