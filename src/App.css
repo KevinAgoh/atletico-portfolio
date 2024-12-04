@@ -3,6 +3,13 @@
   padding-bottom: 20vh;
 }
 
+.email-contact {
+  margin-top: 100px; /* Adjust this value as needed */
+  font-size: 16px; /* Optional: Adjust font size */
+  text-align: center; /* Optional: Center the email text */
+}
+
+
 html {
   color: #fff;
   background-image: url('../src/assets/cover.jpg');

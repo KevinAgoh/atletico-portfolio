@@ -13,7 +13,10 @@ function App() {
       <Bio />
       <Music />
       <Dates />
+      <div className="email-contact">atletico.trio@gmail.com</div>
+
     </div>
+
   );
 }
 
