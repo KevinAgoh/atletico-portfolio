@@ -2,6 +2,7 @@ export const dateEntries = [
   {
     year: 2025,
     events: [
+      { month: 'Nov', event: 'Kater Blau', location: 'Berlin, DE' },
       { month: 'Sep', event: 'Crack Bellmer', location: 'Berlin, DE' },
       { month: 'Sep', event: 'Refuge Worldwide', location: 'Berlin, DE' },
       { month: 'Sep', event: 'Coppi', location: 'Berlin, DE' },
