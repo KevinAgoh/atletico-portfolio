@@ -24,7 +24,6 @@ export const dateEntries = [
     events: [
       { month: 'Dec', event: 'Renate', location: 'Berlin, DE' },
       { month: 'Dec', event: 'THF Radio', location: 'Berlin, DE' },
-      { month: 'Dec', event: 'Renate', location: 'Berlin, DE' },
       { month: 'Aug', event: 'Riviera', location: 'Malmöe, SW' },
       { month: 'Apr', event: 'Refuge Worldwide', location: 'Berlin, DE' }
     ]
