@@ -1,8 +1,17 @@
 export const dateEntries = [
   {
+    year: 2026,
+    events: [
+      { month: 'May', event: 'Radiant Act Festival', location: 'France, FR' },
+      { month: 'Apr', event: 'Le Bourg', location: 'Lausanne, CH' },
+      { month: 'Feb', event: 'Bulbul', location: 'Berlin, DE' },
+      { month: 'Feb', event: 'Crack Bellmer', location: 'Berlin, DE' }
+    ]
+  },
+  {
     year: 2025,
     events: [
-      { month: 'Nov', event: 'Kater Blau', location: 'Berlin, DE' },
+      { month: 'Nov', event: 'Kater', location: 'Berlin, DE' },
       { month: 'Sep', event: 'Crack Bellmer', location: 'Berlin, DE' },
       { month: 'Sep', event: 'Refuge Worldwide', location: 'Berlin, DE' },
       { month: 'Sep', event: 'Coppi', location: 'Berlin, DE' },
