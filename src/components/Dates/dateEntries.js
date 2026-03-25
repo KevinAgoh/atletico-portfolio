@@ -3,6 +3,7 @@ export const dateEntries = [
     year: 2026,
     events: [
       { month: 'May', event: 'Radiant Act Festival', location: 'France, FR' },
+      { month: 'May', event: 'Sisyphos', location: 'Berlin, DE' },
       { month: 'Apr', event: 'Le Bourg', location: 'Lausanne, CH' },
       { month: 'Feb', event: 'Bulbul', location: 'Berlin, DE' },
       { month: 'Feb', event: 'Crack Bellmer', location: 'Berlin, DE' }
